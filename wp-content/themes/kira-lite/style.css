@@ -1,0 +1,17 @@
+/*
+Theme Name: Kira Lite
+Theme URI: https://www.machothemes.com/themes/kira-lite/
+Author: Macho Themes
+Author URI: https://www.machothemes.com/
+Description: Kira Lite, is an easy to customize multi-purpose theme with lots of powerful features. This theme lets you customize each element Live without you having to touch any code. Kira Lite is 100% responsive built with HTML5 & CSS3, it's SEO friendly, mobile optimized and retina ready. Its translation ready, ready for WooCommerce, bbPress, Mailchimp, Contact Form 7. The theme is rigorously tested and optimized for speed and faster page load time and has secure and clean code. It's perfect for any types of website: Landing Pages, small business, portfolio, photography, corporate, personal &amp; eCommerce websites.
+Version: 1.0.18
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: kira-lite
+Tags: two-columns, right-sidebar, custom-background, custom-colors, custom-menu, featured-images, sticky-post, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+*/
+
+@import 'layout/css/main.min.css';
+@import 'layout/css/custom.min.css';

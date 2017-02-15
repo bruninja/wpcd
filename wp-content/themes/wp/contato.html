@@ -1,0 +1,200 @@
+
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="pt-br">
+<head><title>
+	:: Contato - Charles Dias | Advogados ::
+</title><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta name="description" content="Especializado em direito penal econômico, o escritório Charles Dias, mantém-se fiel ao compromisso de fazer da advocacia criminal uma missão social." /><meta name="keywords" content="Fábio Charles Dias, Debora Perez, Maria Jamile José, Rafael Leite Mentoni Pacheco, escritório advocacia criminal, direito penal, Charles Dias Sociedade de Advogados, Tofic." /><meta name="author" content="B2Sys Consultoria e Sistemas - http://www.b2sys.com.br" /><link rel="icon" href="res/img/logo-ico.ico" /><link rel="canonical" href="http://charlesdias.adv.br/" /><link rel="stylesheet" type="text/css" href="res/bootstrap/css/bootstrap.css" /><link rel="stylesheet" type="text/css" href="res/bootstrap/font-awesome/css/font-awesome.min.css" /><link rel="stylesheet" type="text/css" href="res/css/site.css" /><link rel="stylesheet" type="text/css" href="res/css/menu.css" />
+    <script type="text/javascript" src="res/script/jquery.js"></script>
+    <script type="text/javascript" src="res/bootstrap/script/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var link = document.location.href.split('/').slice(-1);
+            $('#menu a.ativo').removeClass('ativo');
+            $('#menu a[href$="' + link + '"]').addClass('ativo');
+        });
+    </script>
+    <script type="text/javascript">
+        function BtnClick() {
+            var val = Page_ClientValidate();
+            if (!val) {
+                var i = 0;
+                for (; i < Page_Validators.length; i++) {
+                    if (!Page_Validators[i].isvalid) {
+                        $("#" + Page_Validators[i].controltovalidate).css({ "background-color": "#f4dbdb", "border-color": "red" });
+                    }
+                }
+            }
+            return val;
+        }
+    </script>
+</head>
+<body>
+    <div class="main">
+			<div id="topo">
+                <div class="container borda-bottom">
+                    <div class="pull-right">
+                        <span class="dados"><i class="fa fa-phone-square"></i>(98) 3199-1212 | (98) 3304-1211</span>
+
+                    </div>
+                </div>
+                <div id="menu">
+                    <div class="container">
+                        <div class="row">
+                            <div class="navbar-header">
+                                <a class="navbar-brand" href="Default">
+                                    <img alt="Charle Dias Advogados" src="res/img/charles-dias.jpg" class="img-responsive logo" />
+                                </a>
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                    <span class="fa fa-bars"></span>&nbsp;&nbsp;MENU
+                                </button>
+                            </div>
+                            <div class="navbar-collapse collapse">
+                                <ul id="menu-nav" class="nav navbar-nav navbar-right">
+																	<li><a href="index.html" class="ativo">HOME</a></li>
+																	<li><a href="escritorio.html">APRESENTAÇÃO</a></li>
+																	<li><a href="advogados.html">ADVOGADOS</a></li>
+																	<li><a href="publicacoes.html">PUBLICAÇÕES</a></li>
+																	<li><a href="contato.html">CONTATO</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div id="conteudo">
+
+<div class="titulo-pagina">
+    <div class="container">
+        <h1>Contato</h1>
+    </div>
+</div>
+<div class="info-contato">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-4">
+                <div class="box-cont">
+                    <span class="fa fa-envelope-o icon-radius"></span><br />
+                    <h3 class="subtitulo">E-mail</h3>
+                    <p class="texto">
+                        <a href="mailto:contato@charlesdias.adv.br">contato@charlesdias.adv.br</a>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4">
+                <div class="box-cont">
+                    <span class="fa fa-phone icon-radius"></span><br />
+                    <h3 class="subtitulo">Telefone</h3>
+                    <p class="texto">
+                        55 98 3199-1212<br />
+                        55 98 3304-1211
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4">
+                <div class="box-cont">
+                    <span class="fa fa-map-marker icon-radius"></span><br />
+                    <h3 class="subtitulo">Endereço</h3>
+                    <p class="texto">
+                        Ed. Century Multiempresarial, Sala 211 <br /> Av. dos Holandeses, Qd 11a, Lote 14 <br />
+                        São Marcos, São Luís-MA  CEP:65075-650
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+
+    <div class="row">
+        <div class="col-md-6">
+					<form class="" action="mail.php" method="post">
+
+						<div class="form-group">
+                <label>
+                    Nome*
+                    &nbsp;
+                </label>
+                <input name="nome" type="text" id="nome" class="form-control" />
+            </div>
+            <div class="row">
+                <div class="form-group col-md-6 col-sm-6">
+                    <label>
+                        E-mail*
+                        &nbsp;
+                    </label>
+                    <input name="email" type="text" id="email" class="form-control" />
+                </div>
+                <div class="form-group col-md-6 col-sm-6">
+                    <label>Telefone</label>
+                    <input name="telefone" type="text" maxlength="16" id="telefone" class="form-control" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label>
+                    Mensagem*
+                    &nbsp;
+                </label>
+                <textarea name="mensagem" rows="2" cols="20" id="mensagem" class="form-control"></textarea>
+            </div>
+            <div class="form-group">
+                <input type="submit" name="enviar" value="Enviar" onclick="return BtnClick();WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ContentPlaceHolder1$btnEnviar&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="ctl00_ContentPlaceHolder1_btnEnviar" class="btn btn-default pull-right" />
+            </div>
+					</form>
+        </div>
+
+        <div class="col-md-6">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3986.0425149758107!2d-44.28833778562884!3d-2.492872838834583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7f68c3556666bd3%3A0x7fcd92353b26de64!2sEd.+Century+Multiempresarial+-+Av.+dos+Holandeses%2C+14+-+Calhau%2C+S%C3%A3o+Lu%C3%ADs+-+MA%2C+65075-650!5e0!3m2!1spt-BR!2sbr!4v1483405605493" width="100%" height="415" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+    </div>
+</div>
+
+            </div>
+            <div id="rodape">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-xs-5">
+                        <a href="Default">
+                            <img alt="Charle Dias Advogados" src="res/img/charles-dias.png" class="img-responsive" />
+                        </a>
+                    </div>
+                    <div class="col-md-8 col-xs-7">
+                        <div id="endereco">
+                            <p>
+                                Ed. Century Multiempresarial, Sala 211 <br /> Av. dos Holandeses, Qd 11a, Lote 14 <br />
+                                São Marcos, São Luís-MA <br />
+                                CEP:65075-650<br />
+                            </p>
+                            <p>
+                            Telefone: (98) 3199-1212 | (98) 3304-1211<br />
+                            E-mail: <a href="mailto:contato@charlesdias.adv.br">contato@charlesdias.adv.br</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row hidden-xs">
+                    <ul id="menu-rodape" class="nav nav-pills">
+                        <li><a href="Default">HOME</a></li>
+                        <li><a href="Escritorio">APRESENTAÇÃO</a></li>
+                        <li><a href="Advogados">ADVOGADOS</a></li>
+                        <li><a href="Publicacoes">PUBLICAÇÕES</a></li>
+                        <li><a href="Contato">CONTATO</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="direitos">
+                <div class="container">
+                    <p class="pull-left">Copyright 2017 © ▪ CHARLES DIAS ADVOGADOS ▪ Todos os direitos reservados</p>
+                    <p class="pull-right">Desenvolvido por <a href="http://bruno.url.ph" target="_blank">Bruno</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="res/script/respond.min.js"></script>
+    <script type="text/javascript" src="res/script/modernizr.js"></script>
+</body>
+
+</html>

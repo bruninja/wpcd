@@ -1,0 +1,82 @@
+﻿#menu .nav
+{
+    font:1.6em "Open Sans", Helvetica, Sans-Serif;
+    text-transform:uppercase;
+}
+
+#menu .navbar-nav
+{
+    position:relative;
+    margin-top:0;
+}
+
+#menu .nav > li
+{
+    margin-left:1px;
+}
+#menu .nav > li > a
+{
+    padding:60px 13px;
+    color:#c29b40;
+    text-decoration:none;
+
+}
+#menu .nav > li > a:hover, #menu .nav > li > a.ativo
+{
+    background-color:#c29842;
+    color:#fff;
+}
+
+@media (min-width: 768px)
+{
+.navbar-nav.navbar-right:last-child
+{
+    margin-right:0;
+}
+}
+
+/* Menu Rodapé
+----------------------------------------------------------*/
+#menu-rodape
+{
+    margin-bottom:20px;
+}
+
+#menu-rodape.nav
+{
+    font-size:1.1em
+}
+
+#menu-rodape.nav > li > a
+{
+   text-decoration:none;
+   color:#fff;
+   border-radius:0px;
+}
+
+#menu-rodape.nav > li > a:hover
+{
+    color:#fff;
+    background-color:#363435;
+}
+
+@media (max-width: 1199px)
+{
+    #menu .nav
+    {
+        font:1.5em "Open Sans", Helvetica, Sans-Serif;
+    }
+}
+
+
+@media screen and (max-width: 768px)
+{
+    #menu .nav > li > a
+    {
+        padding:10px;
+        color:#c29842;
+        text-decoration:none;
+
+    }
+
+}

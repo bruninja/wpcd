@@ -1,0 +1,809 @@
+﻿/* Fontes
+----------------------------------------------------------*/
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fontes/opensans.eot');
+    src: url('../fontes/opensans.eot?#iefix') format('embedded-opentype'),
+         url('../fontes/opensans.woff') format('woff'),
+         url('../fontes/opensans.ttf') format('truetype'),
+         url('../fontes/opensans.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans Semi';
+    src: url('../fontes/opensans-semibold.eot');
+    src: url('../fontes/opensans-semibold.eot?#iefix') format('embedded-opentype'),
+         url('../fontes/opensans-semibold.woff') format('woff'),
+         url('../fontes/opensans-semibold.ttf') format('truetype'),
+         url('../fontes/opensans-semibold.svg#open_sanssemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fontes/roboto.eot');
+    src: url('../fontes/roboto.eot?#iefix') format('embedded-opentype'),
+         url('../fontes/roboto.woff') format('woff'),
+         url('../fontes/roboto.ttf') format('truetype'),
+         url('../fontes/roboto.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Roboto Medium';
+    src: url('../fontes/roboto-medium.eot');
+    src: url('../fontes/roboto-medium.eot?#iefix') format('embedded-opentype'),
+         url('../fontes/roboto-medium.woff') format('woff'),
+         url('../fontes/roboto-medium.ttf') format('truetype'),
+         url('../fontes/roboto-medium.svg#robotomedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Roboto Bold';
+    src: url('../fontes/roboto-bold.eot');
+    src: url('../fontes/roboto-bold.eot?#iefix') format('embedded-opentype'),
+         url('../fontes/roboto-bold.woff') format('woff'),
+         url('../fontes/roboto-bold.ttf') format('truetype'),
+         url('../fontes/roboto-bold.svg#robotobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/* Estrutura da página
+----------------------------------------------------------*/
+html, body {height:100%;}
+
+body
+{
+    font: 10px "Roboto", Helvetica, sans-serif;
+}
+
+.main
+{
+	min-height: 100%;
+	height:100%;
+	height: auto !important;
+	position:relative;
+	margin: 0 auto;
+}
+
+#conteudo
+{
+    height:100%;
+    padding:0 0 270px;
+    background-color:#fff;
+
+}
+
+#rodape
+{
+    bottom:0;
+    background-color:#363435;
+    color:#fff;
+    padding:15px 0 0;
+    position:absolute;
+    width:100%;
+}
+
+
+/* Geral
+----------------------------------------------------------*/
+blockquote
+{
+    background-color:#eee;
+    border-color:#c29842;
+    color:#c29842;
+    line-height:1.5em;
+    font:2.1em "Georgia", Serif;
+    margin:0 0 0 0;
+}
+
+a
+{
+    color:#c29842;
+
+}
+
+a:hover
+{
+    color:#c29842;
+    text-decoration:none;
+}
+
+/* Título
+----------------------------------------------------------*/
+
+h1
+{
+    font:2.2em "Open Sans", Helvetica, Sans-Serif;
+    color:#fff;
+}
+h2
+{
+    font:2.2em "Open Sans Semi", Helvetica, Sans-Serif;
+    color:#c29842;
+    margin-top:20px;
+}
+
+h3
+{
+    font:1.6em "Open Sans Semi", Helvetica, Sans-Serif;
+    color:#c29842;
+    margin-top:0;
+}
+
+
+.titulo
+{
+    border-bottom:2px solid #c29842;
+    display:inline-block;
+    padding-bottom:3px;
+    margin-bottom:20px;
+}
+
+.subtitulo
+{
+    border-bottom:2px solid #c29842;
+    display:inline-block;
+    padding-bottom:3px;
+    margin-bottom:10px;
+}
+
+h3.subtitulo
+{
+    border-bottom:0;
+}
+
+.titulo-pagina {
+  padding: 4px 0;
+  margin-bottom: 30px;
+  list-style: none;
+  background-color:#c29842;
+  color:#fff;
+  text-transform:uppercase;
+}
+
+.titulo-pagina h1
+{
+    color:#fff;
+    font-size:1.9em;
+    margin-top:10px
+}
+
+
+
+/* Texto
+----------------------------------------------------------*/
+.texto
+{
+    font-size:1.5em;
+    line-height:1.5em;
+}
+
+.texto-destaque
+{
+    font-size:1.5em;
+    line-height:1.5em;
+    color:#c29842
+}
+
+/* Link
+----------------------------------------------------------*/
+a.link
+{
+    color:#c29842;
+    font:1.5em "Roboto Medium", Helvetica, Sans-Serif;
+    text-decoration:none;
+}
+
+a.link:hover
+{
+    color:#c29842;
+    text-decoration:underline;
+}
+
+a.link-email
+{
+    color:#c29842;
+    font-size:1.5em;
+    font-weight:400;
+    text-decoration:underline;
+}
+
+a.link-email:hover
+{
+    color:#c29842;
+    text-decoration:none;
+}
+
+/* ÍCONE
+----------------------------------------------------------*/
+.icon-radius
+{
+    background-color:#c29842;
+    color:#fff;
+    border-radius:5em;
+    border: 5px solid #f9f9f9;
+    width:65px;
+    height:65px;
+    line-height:60px;
+    text-align:center;
+    font-size:2.5em;
+}
+
+/* Borda / Margem
+----------------------------------------------------------*/
+.borda
+{
+    border:2px solid #ddd;
+}
+
+.margem-top
+{
+    margin-top:10px;
+}
+
+.img-margem
+{
+    margin-top:5px;
+}
+
+/* Formulário
+----------------------------------------------------------*/
+.form-control
+{
+    border-radius:0;
+}
+
+.form-group label
+{
+    font:1.4em "Arial", Helvetica, Sans-Serif;
+    line-height: 1.7em;
+}
+
+/* BOTÕES
+----------------------------------------------------------*/
+.btn
+{
+    border-radius: 0px;
+    border: 2px solid transparent;
+}
+.btn-default {
+  color: #fff;
+  background-color: #c29842;
+  border-color: #95772e;
+
+}
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active,
+.open .dropdown-toggle.btn-default {
+  color: #fff;
+  background-color: #95772e;
+  border-color: #95772e;
+}
+
+/* LISTA
+----------------------------------------------------------*/
+.lista-geral
+{
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+/* MODAL
+----------------------------------------------------------*/
+.modal-header {
+  padding: 10px 10px 0;
+  border-bottom:0;
+}
+
+.modal-header .close {
+  color:#004821;
+}
+
+.close
+{
+    opacity:1;
+    position:absolute;
+    right:-5px;
+    top:-5px
+}
+
+.close:hover
+{
+    opacity:1;
+}
+
+.modal-body {
+  padding:10px 20px 20px;
+}
+
+.modal-body hr
+{
+    background-color:transparent;
+    margin:15px 0;
+}
+
+.modal-dialog
+    {
+      width:650px;
+
+    }
+
+.modal-footer
+{
+    padding: 19px 15px 20px;
+}
+
+#aviso .modal-dialog
+{
+    max-width:470px;
+}
+
+#aviso .modal-body
+{
+    padding:0 20px 20px;
+}
+
+#aviso .modal-body h2
+{
+    margin-top:10px;
+}
+
+@media (min-width: 769px)
+{
+    .modal-dialog
+    {
+      width:800px;
+      margin: 5% auto 0;
+    }
+}
+@media (max-width: 640px)
+{
+
+.modal-dialog
+    {
+      width:550px;
+      margin: 5% auto 0;
+    }
+
+}
+
+@media (max-width: 600px)
+{
+
+.modal-dialog
+    {
+      width:400px;
+      margin: 5% auto 0;
+    }
+
+.modal-dialog .img-responsive
+    {
+        margin:auto;
+        max-width:200px;
+    }
+
+    #curriculo .texto
+    {
+        font-size:1.4em;
+    }
+
+    #NomeAdv h2
+    {
+        font-size:1.8em;
+    }
+
+}
+
+
+/* Topo
+----------------------------------------------------------*/
+.borda-bottom
+{border-bottom:1px solid #eee;}
+
+
+#topo
+{
+    padding:0 0;
+    background-color:#f4f4f4;
+    color:#c29842;
+}
+
+#topo .dados
+{
+    font-size:1.3em;
+    padding:8px;
+    display:inline-block
+}
+
+@media (max-width: 600px)
+{
+    #topo .container
+    {
+        padding-left:5px;
+        padding-right:5px;
+    }
+}
+
+a.lang
+{
+    border-left:1px solid #eee;
+    border-right:1px solid #eee;
+    color:#c29842;
+    display:inline-block;
+    font-size:1.3em;
+    padding:8px;
+    text-decoration:none;
+}
+
+a.lang:hover
+{
+    background-color:#eee;
+}
+
+#menu
+{
+    background-color:#363435;
+}
+
+.logo
+{
+    padding-top:10px;
+}
+
+.navbar-brand{ height:120px;}
+.navbar-toggle
+{
+    background-color:#c29842;
+    color:#fff;
+    border-radius:0;
+    margin-top:40px;
+    font-size:1.3em;
+    font-weight:bold;
+}
+.navbar-toggle .fa { font-size:1.3em}
+
+/* Rodape
+----------------------------------------------------------*/
+#endereco a
+{
+    color:#fff;
+    text-decoration:underline;
+}
+
+#endereco a:hover
+{
+    text-decoration:none;
+}
+
+#endereco
+{
+    color:#fff;
+    text-align:right;
+    font-size:1.3em;
+    line-height:1.6em;
+}
+
+#direitos
+{
+    background-color:#c29842;
+    padding-top:5px;
+    font-size:1em;
+}
+
+#direitos a
+{
+    color:#fff;
+    text-decoration:underline
+}
+
+/* Home
+----------------------------------------------------------*/
+#banner
+{
+    margin:0 auto 0;
+    max-width:1400px;
+}
+
+
+/* Publicações
+---------------------------------------------------------*/
+.publicacoes
+{
+    margin-bottom:20px;
+}
+.publicacoes i.fa-angle-double-right
+{
+    font-size:1.7em;
+}
+
+.publicacoes a.link
+{
+    display:inline-block;
+    margin-bottom:4px;
+    color:#c29842;
+    text-decoration:none;
+}
+
+.publicacoes a.link:hover
+{
+    text-decoration:underline;
+    color:#c29842;
+}
+
+.publicacoes p
+{
+    margin-bottom:4px;
+    font-size:1.3em;
+}
+
+
+
+.detalhe-noticia
+{
+    color:#666;
+    margin-left:12px;
+}
+
+.lista-publicacoes
+{
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+.lista-publicacoes li
+{
+    margin-bottom:15px;
+    border-bottom:1px solid #eee;
+}
+
+.lista-publicacoes a.link
+{
+    display:inline-block;
+    color:#c29842;
+    margin-top:-2px;
+    vertical-align:top;
+    width:95%;
+}
+
+.lista-publicacoes p
+{
+    font-size:1.3em;
+}
+
+.lista-publicacoes p.texto-destaque
+{
+    display:inline-block;
+    font-size:1.5em;
+    font-weight:500;
+    margin-top:-2px;
+    vertical-align:top;
+    width:95%;
+}
+
+.lista-publicacoes i.fa-angle-double-right
+{
+    font-size:1.7em;
+}
+.lista-publicacoes .detalhe-noticia i:first-child
+{
+    min-width:inherit;
+}
+
+.lista-publicacoes .detalhe-noticia i
+{
+    min-width:25px;
+    text-align:right;
+    margin-right:2px;
+    margin-top:8px;
+
+}
+
+/* Advogados
+---------------------------------------------------------*/
+
+ul.lista-adv
+{
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+ul.lista-adv a
+{
+    font:1.5em "Roboto Medium", Helvetica, Sans-Serif;
+    padding:0;
+}
+
+ul.lista-adv p
+{
+    font:1.4em "Roboto", Helvetica, Sans-Serif;
+    margin:2px 0 0;
+}
+
+ul.lista-adv li
+{
+    background-color:#eee;
+    border-left:2px solid #c29842;
+    margin-bottom:15px;
+    padding:10px;
+}
+
+ul.lista-adv a:hover
+{
+    text-decoration:underline;
+
+}
+
+ul.lista-adv a.link-email
+{
+    font-family:"Roboto", Helvetica, Sans-Serif;
+}
+
+ul.lista-adv a.link-email, ul.lista-adv i
+{
+    color:#333;
+    font-size:1.4em;
+    margin-top:3px;
+}
+
+ul.lista-adv a.link-email:hover
+{
+    color:#c29842;
+}
+
+/* Curriculos
+---------------------------------------------------------*/
+#NomeAdv h2
+{
+    margin:0 0 3px 0;
+    font:2em "Roboto", Helvetica sans-serif;
+    color:#333;
+}
+
+#NomeAdv
+{
+    border-left:2px solid #c29842;
+    padding:0 0 0 10px;
+    margin-bottom:20px;
+}
+
+#NomeAdv a.link-email, #NomeAdv i
+{
+    color:#333;
+    font-size:1.4em;
+}
+
+#NomeAdv a.link-email:hover
+{
+    color:#c29842;
+}
+
+#curriculo
+{
+    margin-top:0;
+}
+
+#curriculo .texto-destaque
+{
+    font-family:"Roboto Bold", Helvetica, Sans-Serif;
+}
+
+#curriculo ul
+{
+    list-style:none;
+    margin:0 0 10px;
+    padding:0;
+}
+
+#curriculo ul li
+{
+    margin-bottom:5px;
+}
+
+#curriculo ul i
+{
+    float:left;
+    margin-top:3px;
+}
+
+#curriculo ul span
+{
+    display:inline-block;
+    width:97%;
+    margin-left:1%;
+}
+
+@media (max-width: 768px)
+{
+    #curriculo ul span
+    {
+        display:inline-block;
+        width:95%;
+        margin-left:1%;
+    }
+}
+/* Contato
+----------------------------------------------------------*/
+.box-cont
+{
+    margin-top:20px;
+    text-align:center;
+}
+
+.box-cont .icon-square
+{
+    margin-bottom:10px;
+}
+
+.info-contato
+{
+    background-color:#eee;
+    margin-bottom:30px;
+    margin-top:-30px;
+}
+
+
+.info-contato h3.subtitulo
+{
+    font:1.8em "Open Sans Semi", Helvetica, Sans-Serif;
+    color:#333;
+    margin-bottom:5px;
+}
+
+.info-contato a
+{
+    text-decoration:underline;
+}
+
+
+@media screen and (max-width: 768px)
+{
+    .logo
+    {
+        max-height:90px;
+
+    }
+    .navbar-brand
+    {
+        height:auto;
+        padding:15px 0;
+
+    }
+
+    .navbar-toggle
+    {
+        margin-top:50px;
+    }
+
+}
+
+@media screen and (max-width: 400px)
+{
+    .navbar-toggle
+        {
+            margin-top:0px;
+            margin-right:5px;
+            font-size:1.2em;
+        }
+
+
+}

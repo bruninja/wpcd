@@ -1,0 +1,1604 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Epico\n"
+"POT-Creation-Date: 2016-12-08 21:57-0200\n"
+"PO-Revision-Date: 2016-02-27 10:55-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: plugincore.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;"
+"esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: class-uf-epico.php:212
+msgid "Capture (shortcode)"
+msgstr ""
+
+#: class-uf-epico.php:213 class-uf-epico.php:223 class-uf-epico.php:638 class-uf-epico.php:800
+msgid "Capture"
+msgstr ""
+
+#: class-uf-epico.php:214
+msgid "Add new"
+msgstr ""
+
+#: class-uf-epico.php:215
+msgid "Add new Capture"
+msgstr ""
+
+#: class-uf-epico.php:216
+msgid "Edit Capture"
+msgstr ""
+
+#: class-uf-epico.php:217
+msgid "All Captures"
+msgstr ""
+
+#: class-uf-epico.php:218
+msgid "View Capture"
+msgstr ""
+
+#: class-uf-epico.php:219
+msgid "Search Captures"
+msgstr ""
+
+#: class-uf-epico.php:220
+msgid "No Capture defined"
+msgstr ""
+
+#: class-uf-epico.php:221
+msgid "No Capture found in trash"
+msgstr ""
+
+#: class-uf-epico.php:268 class-uf-epico.php:271
+msgid "Capture updated."
+msgstr ""
+
+#: class-uf-epico.php:269
+msgid "Custom field updated."
+msgstr ""
+
+#: class-uf-epico.php:270
+msgid "Custom field deleted."
+msgstr ""
+
+#: class-uf-epico.php:273
+#, php-format
+msgid "Capture restored to revision from %s"
+msgstr ""
+
+#: class-uf-epico.php:274
+msgid "Capture published."
+msgstr ""
+
+#: class-uf-epico.php:275
+msgid "Capture saved."
+msgstr ""
+
+#: class-uf-epico.php:276
+msgid "Capture submitted."
+msgstr ""
+
+#: class-uf-epico.php:277
+#, php-format
+msgid "Capture scheduled for: <strong>%1$s</strong>."
+msgstr ""
+
+#: class-uf-epico.php:278
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: class-uf-epico.php:279
+msgid "Capture draft updated."
+msgstr ""
+
+#: class-uf-epico.php:302 configs/epico_author-texts.php:15 configs/epico_capture_sc-texts.php:15
+#: configs/epico_capture_widget-texts.php:15 configs/epico_notice-texts.php:15
+msgid "Texts"
+msgstr ""
+
+#: class-uf-epico.php:309 configs/epico_capture_sc-icon.php:15 configs/epico_capture_widget-icon.php:15
+#: configs/epico_pop-title.php:26
+msgid "Icon"
+msgstr ""
+
+#: class-uf-epico.php:316
+msgid "Email Marketing"
+msgstr ""
+
+#: class-uf-epico.php:323 configs/epico_capture_sc-customization.php:15
+#: configs/epico_capture_widget-customization.php:15
+msgid "Customization"
+msgstr ""
+
+#: class-uf-epico.php:330
+msgid "Theme Overrides"
+msgstr ""
+
+#: class-uf-epico.php:373 class-uf-epico.php:419 class-uf-epico.php:747
+#: includes/widget-epico-social.php:151 includes/widget-epico-social.php:187
+#: includes/widget-epico_author.php:153 includes/widget-epico_author.php:189
+#: includes/widget-epico_capture_widget.php:152 includes/widget-epico_capture_widget.php:186
+#: includes/widget-epico_image.php:140 includes/widget-epico_image.php:176
+#: includes/widget-epico_links.php:154 includes/widget-epico_links.php:190
+#: includes/widget-epico_notice.php:154 includes/widget-epico_notice.php:190
+#: includes/widget-epico_pages.php:154 includes/widget-epico_pages.php:190
+#: includes/widget-epico_pop.php:153 includes/widget-epico_pop.php:189
+msgid "Remove"
+msgstr ""
+
+#: class-uf-epico.php:413 class-uf-epico.php:733 includes/widget-epico-social.php:181
+#: includes/widget-epico_author.php:183 includes/widget-epico_capture_widget.php:180
+#: includes/widget-epico_image.php:170 includes/widget-epico_links.php:184
+#: includes/widget-epico_notice.php:184 includes/widget-epico_pages.php:184
+#: includes/widget-epico_pop.php:183
+msgid "Add Another"
+msgstr ""
+
+#: class-uf-epico.php:472
+msgid "Shortcode"
+msgstr ""
+
+#: class-uf-epico.php:473
+msgid "Date"
+msgstr ""
+
+#: class-uf-epico.php:637 class-uf-epico.php:800
+msgid "Shortcodes"
+msgstr ""
+
+#: class-uf-epico.php:638 class-uf-epico.php:810
+msgid "Insert Shortcode"
+msgstr ""
+
+#: class-uf-epico.php:657
+msgid "Your content goes here"
+msgstr ""
+
+#: configs/epico-social-networks.php:15
+msgid "Social networks"
+msgstr ""
+
+#: configs/epico-social-networks.php:20
+msgid "Social network"
+msgstr ""
+
+#: configs/epico-social-networks.php:21
+msgid ""
+"Choose a social network to include in the widget. You can add more links to social networks clicking "
+"\"Add another\", below."
+msgstr ""
+
+#: configs/epico-social-networks.php:23
+msgid ""
+"*1||Facebook,2||YouTube,3||Google Plus,4||Twitter,5||LinkedIn,6||Flickr,7||FourSquare,8||Pinterest,9||"
+"Instagram,10||Soundcloud,11||Slideshare,12||Snapchat"
+msgstr ""
+
+#: configs/epico-social-networks.php:26
+msgid "Profile link"
+msgstr ""
+
+#: configs/epico-social-networks.php:27
+msgid "Add the link to your profile, including the http://"
+msgstr ""
+
+#: configs/epico-social-networks.php:29
+msgid "http://www.facebook.com/MyProfile"
+msgstr ""
+
+#: configs/epico-social-theme-overrides.php:15 configs/epico_author-theme-overrides.php:15
+#: configs/epico_capture_sc-theme-overrides.php:15 configs/epico_capture_widget-theme-overrides.php:15
+#: configs/epico_links-theme-overrides.php:15 configs/epico_notice-theme-overrides.php:15
+#: configs/epico_pages-theme-overrides.php:15 configs/epico_pop-theme-overrides.php:15
+msgid "Theme overrides"
+msgstr ""
+
+#: configs/epico-social-theme-overrides.php:20 configs/epico_author-button.php:32
+#: configs/epico_image-image.php:44 configs/epico_links-theme-overrides.php:26
+#: configs/epico_notice-texts.php:38 configs/epico_pages-theme-overrides.php:26
+#: configs/epico_pop-theme-overrides.php:20
+msgid "Link target"
+msgstr ""
+
+#: configs/epico-social-theme-overrides.php:21
+msgid "Choose one of the actions for social network button when clicked."
+msgstr ""
+
+#: configs/epico-social-theme-overrides.php:23 configs/epico_author-button.php:35
+#: configs/epico_image-image.php:47 configs/epico_notice-texts.php:41
+#: configs/epico_pop-theme-overrides.php:23
+msgid "*0||Open in new window,1||Open in the same window"
+msgstr ""
+
+#: configs/epico-social-theme-overrides.php:26 configs/epico_author-theme-overrides.php:20
+#: configs/epico_capture_sc-theme-overrides.php:20 configs/epico_capture_widget-theme-overrides.php:20
+#: configs/epico_links-theme-overrides.php:20 configs/epico_notice-theme-overrides.php:20
+#: configs/epico_pages-theme-overrides.php:20 configs/epico_pop-theme-overrides.php:26
+msgid "Unique identifier"
+msgstr ""
+
+#: configs/epico-social-theme-overrides.php:27 configs/epico_author-theme-overrides.php:21
+#: configs/epico_capture_sc-theme-overrides.php:21 configs/epico_capture_widget-theme-overrides.php:21
+#: configs/epico_notice-theme-overrides.php:21 configs/epico_pages-theme-overrides.php:21
+#: configs/epico_pop-theme-overrides.php:27
+msgid ""
+"Enter an unique identifier for the widget. Use only regular alphabet letters and don't use special "
+"symbols."
+msgstr ""
+
+#: configs/epico-social-theme-overrides.php:32 configs/epico_author-theme-overrides.php:33
+#: configs/epico_capture_sc-theme-overrides.php:26 configs/epico_capture_widget-theme-overrides.php:26
+#: configs/epico_links-theme-overrides.php:39 configs/epico_notice-theme-overrides.php:26
+#: configs/epico_pages-theme-overrides.php:39 configs/epico_pop-theme-overrides.php:32
+msgid "Override theme colors"
+msgstr ""
+
+#: configs/epico-social-theme-overrides.php:33 configs/epico_author-theme-overrides.php:34
+#: configs/epico_capture_sc-theme-overrides.php:27 configs/epico_capture_widget-theme-overrides.php:27
+#: configs/epico_links-theme-overrides.php:40 configs/epico_notice-theme-overrides.php:27
+#: configs/epico_pages-theme-overrides.php:40 configs/epico_pop-theme-overrides.php:33
+msgid ""
+"Enable this to allow the default theme colors to be overriden. Then you can define custom values using "
+"the options below."
+msgstr ""
+
+#: configs/epico-social-theme-overrides.php:35 configs/epico_author-theme-overrides.php:36
+#: configs/epico_capture_sc-customization.php:23 configs/epico_capture_sc-customization.php:50
+#: configs/epico_capture_sc-theme-overrides.php:29 configs/epico_capture_widget-customization.php:71
+#: configs/epico_capture_widget-theme-overrides.php:29 configs/epico_links-theme-overrides.php:42
+#: configs/epico_pages-theme-overrides.php:42
+msgid "1||On,*2||Off"
+msgstr ""
+
+#: configs/epico-social-theme-overrides.php:39 configs/epico_links-theme-overrides.php:52
+#: configs/epico_pages-theme-overrides.php:52
+msgid "Text color"
+msgstr ""
+
+#: configs/epico-social-theme-overrides.php:40
+msgid "Select a color for the text."
+msgstr ""
+
+#: configs/epico-social-theme-overrides.php:45 configs/epico_capture_sc-theme-overrides.php:51
+#: configs/epico_capture_widget-theme-overrides.php:57 configs/epico_links-theme-overrides.php:58
+#: configs/epico_pages-theme-overrides.php:58
+msgid "Icon color"
+msgstr ""
+
+#: configs/epico-social-theme-overrides.php:46
+msgid "Select the icon's color."
+msgstr ""
+
+#: configs/epico-social-theme-overrides.php:51
+msgid "Icon background color"
+msgstr ""
+
+#: configs/epico-social-theme-overrides.php:52
+msgid "Select the icon's background color."
+msgstr ""
+
+#: configs/epico-social-theme-overrides.php:57 configs/epico_capture_sc-theme-overrides.php:33
+#: configs/epico_capture_widget-theme-overrides.php:33
+msgid "Widget background color"
+msgstr ""
+
+#: configs/epico-social-theme-overrides.php:58
+msgid "Select the widget's background color."
+msgstr ""
+
+#: configs/epico-social-title.php:15 configs/epico-social-title.php:20 configs/epico_author-texts.php:20
+#: configs/epico_capture_sc-texts.php:20 configs/epico_capture_widget-texts.php:20
+#: configs/epico_pop-title.php:15
+msgid "Title"
+msgstr ""
+
+#: configs/epico-social-title.php:21 configs/epico_pop-title.php:21
+msgid "Add a title for the widget. Leave it blank to ommit it in the frontend."
+msgstr ""
+
+#: configs/epico-social-title.php:23
+msgid "Follow us!"
+msgstr ""
+
+#: configs/epico_author-button.php:15
+msgid "Button"
+msgstr ""
+
+#: configs/epico_author-button.php:20 configs/epico_notice-texts.php:32
+msgid "Button link"
+msgstr ""
+
+#: configs/epico_author-button.php:21
+msgid "Add a link to a relevant page about the author or the website. "
+msgstr ""
+
+#: configs/epico_author-button.php:26 configs/epico_capture_sc-texts.php:50
+#: configs/epico_capture_widget-texts.php:56 configs/epico_notice-texts.php:26
+msgid "Button text"
+msgstr ""
+
+#: configs/epico_author-button.php:27
+msgid "Insert a short phrase for the button."
+msgstr ""
+
+#: configs/epico_author-button.php:29
+msgid "Read more"
+msgstr ""
+
+#: configs/epico_author-button.php:33
+msgid "Choose one of the actions for the button when clicked."
+msgstr ""
+
+#: configs/epico_author-image.php:15 configs/epico_image-image.php:15
+msgid "Image"
+msgstr ""
+
+#: configs/epico_author-image.php:20
+msgid "Author image upload"
+msgstr ""
+
+#: configs/epico_author-image.php:21
+msgid ""
+"Upload an image file with 200px x 200px maximum. If your image is bigger than that, you can edit "
+"within WordPress itself. (<strong>Edit image</strong> will appear after the upload)."
+msgstr ""
+
+#: configs/epico_author-image.php:26 configs/epico_image-image.php:32
+msgid "Image alt text"
+msgstr ""
+
+#: configs/epico_author-image.php:27
+msgid "The IMG tag needs an alternative text, useful for screen readers and search engine optimization."
+msgstr ""
+
+#: configs/epico_author-texts.php:21
+msgid "Add here your name or another relevant text for the title."
+msgstr ""
+
+#: configs/epico_author-texts.php:23
+msgid "About the author"
+msgstr ""
+
+#: configs/epico_author-texts.php:26
+msgid "Introductory text"
+msgstr ""
+
+#: configs/epico_author-texts.php:27
+msgid ""
+"A brief text to introduce the author or the website. This field allows the \"strong\" and \"em HTML "
+"tags."
+msgstr ""
+
+#: configs/epico_author-texts.php:29
+msgid ""
+"Add here your introductory text. You can apply the \"strong\" and \"em\" tags to the text, if "
+"necessary."
+msgstr ""
+
+#: configs/epico_author-theme-overrides.php:26
+msgid "Stripes effect"
+msgstr ""
+
+#: configs/epico_author-theme-overrides.php:27
+msgid "Add or remove the stripes effect."
+msgstr ""
+
+#: configs/epico_author-theme-overrides.php:29
+msgid "*1||On,2||Off"
+msgstr ""
+
+#: configs/epico_author-theme-overrides.php:40 configs/epico_links-theme-overrides.php:46
+#: configs/epico_notice-theme-overrides.php:33 configs/epico_pages-theme-overrides.php:46
+#: configs/epico_pop-theme-overrides.php:39
+msgid "Background color"
+msgstr ""
+
+#: configs/epico_author-theme-overrides.php:41 configs/epico_links-theme-overrides.php:47
+#: configs/epico_pages-theme-overrides.php:47 configs/epico_pop-theme-overrides.php:40
+msgid "Select a background color for the widget."
+msgstr ""
+
+#: configs/epico_author-theme-overrides.php:46 configs/epico_notice-theme-overrides.php:45
+msgid "Button's background color"
+msgstr ""
+
+#: configs/epico_author-theme-overrides.php:47 configs/epico_notice-theme-overrides.php:46
+msgid "Select a background color for the button."
+msgstr ""
+
+#: configs/epico_author-theme-overrides.php:52 configs/epico_notice-theme-overrides.php:39
+#: configs/epico_pop-theme-overrides.php:45
+msgid "Main text color"
+msgstr ""
+
+#: configs/epico_author-theme-overrides.php:53 configs/epico_pop-theme-overrides.php:46
+msgid "Select a color for the widget main text."
+msgstr ""
+
+#: configs/epico_author-theme-overrides.php:58 configs/epico_notice-theme-overrides.php:57
+msgid "Button's text color"
+msgstr ""
+
+#: configs/epico_author-theme-overrides.php:59 configs/epico_notice-theme-overrides.php:58
+msgid "Select a color for the button's text."
+msgstr ""
+
+#: configs/epico_author-theme-overrides.php:64
+msgid "Button's background color (hover state)."
+msgstr ""
+
+#: configs/epico_author-theme-overrides.php:65 configs/epico_notice-theme-overrides.php:52
+msgid "Select a background color for the button's hover state."
+msgstr ""
+
+#: configs/epico_capture_sc-customization.php:20
+msgid "Compact version"
+msgstr ""
+
+#: configs/epico_capture_sc-customization.php:21
+msgid ""
+"This will reduce the box size considerably. To compact more, let the text fields empty in the \"Texts"
+"\" tab above."
+msgstr ""
+
+#: configs/epico_capture_sc-customization.php:27 configs/epico_capture_widget-customization.php:48
+msgid "Open in new window"
+msgstr ""
+
+#: configs/epico_capture_sc-customization.php:28 configs/epico_capture_widget-customization.php:49
+msgid "Would you like to open a new window after the visitor clicks the submit button?"
+msgstr ""
+
+#: configs/epico_capture_sc-customization.php:30 configs/epico_capture_widget-customization.php:51
+msgid "*1||New window,2||Same window"
+msgstr ""
+
+#: configs/epico_capture_sc-customization.php:34 configs/epico_capture_widget-customization.php:55
+msgid "Animations"
+msgstr ""
+
+#: configs/epico_capture_sc-customization.php:35 configs/epico_capture_widget-customization.php:56
+msgid "You can disable all animations if necessary."
+msgstr ""
+
+#: configs/epico_capture_sc-customization.php:37 configs/epico_capture_widget-customization.php:58
+msgid "*1||Animations On,2||Animations Off"
+msgstr ""
+
+#: configs/epico_capture_sc-customization.php:41 configs/epico_capture_widget-customization.php:62
+msgid "Widget background image"
+msgstr ""
+
+#: configs/epico_capture_sc-customization.php:42 configs/epico_capture_widget-customization.php:63
+msgid "Select a background image for the widget (optional)."
+msgstr ""
+
+#: configs/epico_capture_sc-customization.php:47
+msgid "Overlay effect"
+msgstr ""
+
+#: configs/epico_capture_sc-customization.php:48 configs/epico_capture_widget-customization.php:69
+msgid "You can add a color overlay effect to the background image. Enable it here."
+msgstr ""
+
+#: configs/epico_capture_sc-customization.php:54
+msgid "Overlay color"
+msgstr ""
+
+#: configs/epico_capture_sc-customization.php:55 configs/epico_capture_widget-customization.php:76
+msgid "Choose a color for the overlay effect."
+msgstr ""
+
+#: configs/epico_capture_sc-email-marketing.php:15 configs/epico_capture_widget-email-marketing.php:15
+msgid "Email marketing"
+msgstr ""
+
+#: configs/epico_capture_sc-email-marketing.php:20 configs/epico_capture_widget-email-marketing.php:20
+msgid "Email marketing service"
+msgstr ""
+
+#: configs/epico_capture_sc-email-marketing.php:21 configs/epico_capture_widget-email-marketing.php:21
+msgid "Choose your email marketing service and fill all required fields."
+msgstr ""
+
+#: configs/epico_capture_sc-email-marketing.php:23 configs/epico_capture_widget-email-marketing.php:23
+msgid ""
+"*0||Select an option,1||MailChimp,2||Aweber,3||MadMimi,4||Campaign Monitor,5||e-Goi,6||Get Response,7||"
+"Mailee.Me,8||Mail Relay,9||Klick Mail,10||ArpReach,11||ActiveCampaign,12||RD Station,13||Lead "
+"Lovers,14||Sendy,15||Benchmark,16||MyMail,17||TrafficWave,18||InfusionSoft,19||Google Docs,20||"
+"MailPoet,21||Mautic,999||Custom integration"
+msgstr ""
+
+#: configs/epico_capture_sc-email-marketing.php:26 configs/epico_capture_widget-email-marketing.php:26
+msgid "HTML Form action"
+msgstr ""
+
+#: configs/epico_capture_sc-email-marketing.php:27
+msgid "Insert your form action."
+msgstr ""
+
+#: configs/epico_capture_sc-email-marketing.php:32
+msgid "List ID"
+msgstr ""
+
+#: configs/epico_capture_sc-email-marketing.php:33
+msgid "Insert the unique ID of your list."
+msgstr ""
+
+#: configs/epico_capture_sc-email-marketing.php:38 configs/epico_capture_widget-email-marketing.php:38
+msgid "Group ID"
+msgstr ""
+
+#: configs/epico_capture_sc-email-marketing.php:39
+msgid "Insert the unique ID of your group."
+msgstr ""
+
+#: configs/epico_capture_sc-email-marketing.php:44 configs/epico_capture_widget-email-marketing.php:44
+msgid "Redirect URL"
+msgstr ""
+
+#: configs/epico_capture_sc-email-marketing.php:45
+msgid "Insert a custom redirect URL after your form submission."
+msgstr ""
+
+#: configs/epico_capture_sc-email-marketing.php:50 configs/epico_capture_widget-email-marketing.php:50
+msgid "Already subscribed Redirect URL"
+msgstr ""
+
+#: configs/epico_capture_sc-email-marketing.php:51
+msgid "Insert a custom redirect URL for already subscribed visitors."
+msgstr ""
+
+#: configs/epico_capture_sc-email-marketing.php:56 configs/epico_capture_widget-email-marketing.php:56
+msgid "Unique ID"
+msgstr ""
+
+#: configs/epico_capture_sc-email-marketing.php:57
+msgid "Insert your unique ID."
+msgstr ""
+
+#: configs/epico_capture_sc-email-marketing.php:62 configs/epico_capture_widget-email-marketing.php:62
+msgid "Client identification"
+msgstr ""
+
+#: configs/epico_capture_sc-email-marketing.php:63
+msgid "Insert your client identification."
+msgstr ""
+
+#: configs/epico_capture_sc-email-marketing.php:68 configs/epico_capture_widget-email-marketing.php:68
+msgid "Email field ID"
+msgstr ""
+
+#: configs/epico_capture_sc-email-marketing.php:69
+msgid "Insert your email field ID."
+msgstr ""
+
+#: configs/epico_capture_sc-email-marketing.php:74 configs/epico_capture_widget-email-marketing.php:74
+msgid "Unique Token"
+msgstr ""
+
+#: configs/epico_capture_sc-email-marketing.php:75
+msgid "Insert your token here."
+msgstr ""
+
+#: configs/epico_capture_sc-email-marketing.php:80 configs/epico_capture_widget-email-marketing.php:80
+msgid "Subscription confirmed page"
+msgstr ""
+
+#: configs/epico_capture_sc-email-marketing.php:81
+msgid "Custom redirect URL for subscription confirmation."
+msgstr ""
+
+#: configs/epico_capture_sc-email-marketing.php:86 configs/epico_capture_widget-email-marketing.php:86
+msgid "Form ID"
+msgstr ""
+
+#: configs/epico_capture_sc-email-marketing.php:87
+msgid "Insert the unique ID of your form."
+msgstr ""
+
+#: configs/epico_capture_sc-email-marketing.php:92 configs/epico_capture_widget-email-marketing.php:92
+msgid "Tracking code"
+msgstr ""
+
+#: configs/epico_capture_sc-email-marketing.php:93
+msgid "Insert the tracking code."
+msgstr ""
+
+#: configs/epico_capture_sc-email-marketing.php:98 configs/epico_capture_widget-email-marketing.php:98
+msgid "Campaign ID"
+msgstr ""
+
+#: configs/epico_capture_sc-email-marketing.php:99
+msgid "Insert the ID of your campaign."
+msgstr ""
+
+#: configs/epico_capture_sc-email-marketing.php:104 configs/epico_capture_widget-email-marketing.php:104
+msgid "MyMail Instructions"
+msgstr ""
+
+#: configs/epico_capture_sc-email-marketing.php:105
+msgid "Please also configure your MyMail form in \"Newsletter > Forms\" in your WordPress."
+msgstr ""
+
+#: configs/epico_capture_sc-email-marketing.php:110 configs/epico_capture_widget-email-marketing.php:110
+msgid "Opt-in mode"
+msgstr ""
+
+#: configs/epico_capture_sc-email-marketing.php:111 configs/epico_capture_widget-email-marketing.php:111
+msgid "Selec an opt-in mode."
+msgstr ""
+
+#: configs/epico_capture_sc-email-marketing.php:113
+msgid "*1||Single Opt-in,*2||Double opt-in"
+msgstr ""
+
+#: configs/epico_capture_sc-email-marketing.php:117 configs/epico_capture_widget-email-marketing.php:117
+msgid "Start cycle day"
+msgstr ""
+
+#: configs/epico_capture_sc-email-marketing.php:118 configs/epico_capture_widget-email-marketing.php:118
+msgid "Day of the autoresponder cycle (optional)."
+msgstr ""
+
+#: configs/epico_capture_sc-email-marketing.php:123 configs/epico_capture_widget-email-marketing.php:123
+msgid "API Key"
+msgstr ""
+
+#: configs/epico_capture_sc-email-marketing.php:124 configs/epico_capture_widget-email-marketing.php:124
+msgid "Your API Key."
+msgstr ""
+
+#: configs/epico_capture_sc-email-marketing.php:129 configs/epico_capture_widget-email-marketing.php:129
+msgid "Custom Form code"
+msgstr ""
+
+#: configs/epico_capture_sc-email-marketing.php:130 configs/epico_capture_widget-email-marketing.php:130
+msgid "Add a custom HTML Form code here."
+msgstr ""
+
+#: configs/epico_capture_sc-email-marketing.php:135 configs/epico_capture_widget-email-marketing.php:135
+msgid "Lead tracking"
+msgstr ""
+
+#: configs/epico_capture_sc-email-marketing.php:136
+msgid ""
+"Enable lead navigation tracking on your form. Important! You will also need to add your tracking code "
+"on the \"Advanced\" section of this pannel."
+msgstr ""
+
+#: configs/epico_capture_sc-email-marketing.php:138 configs/epico_capture_widget-email-marketing.php:138
+msgid "1||Activate,*2||Deactivate"
+msgstr ""
+
+#: configs/epico_capture_sc-email-marketing.php:142 configs/epico_capture_widget-email-marketing.php:142
+msgid "Name field"
+msgstr ""
+
+#: configs/epico_capture_sc-email-marketing.php:143 configs/epico_capture_widget-email-marketing.php:143
+msgid "\"Name\" field"
+msgstr ""
+
+#: configs/epico_capture_sc-email-marketing.php:145 configs/epico_capture_widget-email-marketing.php:145
+msgid "1||Enable,*2||Disable"
+msgstr ""
+
+#: configs/epico_capture_sc-email-marketing.php:149 configs/epico_capture_widget-email-marketing.php:149
+msgid "Name field ID"
+msgstr ""
+
+#: configs/epico_capture_sc-email-marketing.php:150 configs/epico_capture_widget-email-marketing.php:150
+msgid "Insert below your name field ID."
+msgstr ""
+
+#: configs/epico_capture_sc-icon.php:20 configs/epico_capture_widget-icon.php:20
+msgid "Default icon"
+msgstr ""
+
+#: configs/epico_capture_sc-icon.php:21 configs/epico_capture_widget-icon.php:21
+#: configs/epico_pop-title.php:27
+msgid ""
+"You can add an icon next to the main title. Visit minha.uberfacil.com/icones to see all available "
+"icons. Just choose an icon and click on it to copy it's ID to the clipboard. Next, paste it here."
+msgstr ""
+
+#: configs/epico_capture_sc-icon.php:26 configs/epico_capture_widget-icon.php:26
+msgid "Upload a custom icon"
+msgstr ""
+
+#: configs/epico_capture_sc-icon.php:27 configs/epico_capture_widget-icon.php:27
+msgid ""
+"You can alternatively upload a custom image for your icon. We recommend a small image (maximum width: "
+"200px), to preserve page performance."
+msgstr ""
+
+#: configs/epico_capture_sc-icon.php:32 configs/epico_capture_widget-icon.php:32
+msgid "Icon animation"
+msgstr ""
+
+#: configs/epico_capture_sc-icon.php:33 configs/epico_capture_widget-icon.php:33
+msgid "Choose an animation style for the icon."
+msgstr ""
+
+#: configs/epico_capture_sc-icon.php:35 configs/epico_capture_widget-icon.php:35
+msgid "1||Fade In Down,2||Fade In Up,3||Fade In,4||Bounce In,5||Shake,6||Swing,7||Roll In,*8||Rotate In"
+msgstr ""
+
+#: configs/epico_capture_sc-texts.php:21 configs/epico_capture_widget-texts.php:21
+msgid "Main title for the subscription form. Optimized for 6 words maximum."
+msgstr ""
+
+#: configs/epico_capture_sc-texts.php:23 configs/epico_capture_widget-texts.php:23
+msgid "Focus, impact and creativity"
+msgstr ""
+
+#: configs/epico_capture_sc-texts.php:26 configs/epico_capture_widget-texts.php:26
+msgid "Title tag"
+msgstr ""
+
+#: configs/epico_capture_sc-texts.php:27 configs/epico_capture_widget-texts.php:27
+msgid "Change the header level to best suit your content"
+msgstr ""
+
+#: configs/epico_capture_sc-texts.php:29
+msgid "*0||Header level 4,1||Header level 3,2||Paragraph"
+msgstr ""
+
+#: configs/epico_capture_sc-texts.php:32 configs/epico_capture_widget-texts.php:32
+msgid "Intro text"
+msgstr ""
+
+#: configs/epico_capture_sc-texts.php:33 configs/epico_capture_widget-texts.php:33
+msgid "Add a brief introductory text."
+msgstr ""
+
+#: configs/epico_capture_sc-texts.php:35
+msgid "Please enter your email address below to get free blog updates!"
+msgstr ""
+
+#: configs/epico_capture_sc-texts.php:38 configs/epico_capture_widget-texts.php:44
+msgid "Email field text"
+msgstr ""
+
+#: configs/epico_capture_sc-texts.php:39 configs/epico_capture_widget-texts.php:45
+msgid "Add here the placeholder text that will show up inside the email field."
+msgstr ""
+
+#: configs/epico_capture_sc-texts.php:41
+msgid "Your email"
+msgstr ""
+
+#: configs/epico_capture_sc-texts.php:44 configs/epico_capture_widget-texts.php:50
+msgid "Name field text"
+msgstr ""
+
+#: configs/epico_capture_sc-texts.php:45 configs/epico_capture_widget-texts.php:51
+msgid ""
+"Add here the placeholder text that will show up inside the name field. Note: you must also activate "
+"the name field option in the Email Marketing tab."
+msgstr ""
+
+#: configs/epico_capture_sc-texts.php:47
+msgid "Your name"
+msgstr ""
+
+#: configs/epico_capture_sc-texts.php:51 configs/epico_capture_widget-texts.php:57
+msgid "Add a text for the submit button."
+msgstr ""
+
+#: configs/epico_capture_sc-texts.php:53 configs/epico_capture_widget-texts.php:59
+#: includes/element-epico_capture_sc.php:183 includes/element-epico_capture_sc.php:216
+#: includes/element-epico_capture_sc.php:236 includes/element-epico_capture_sc.php:256
+#: includes/element-epico_capture_sc.php:284 includes/element-epico_capture_sc.php:304
+#: includes/element-epico_capture_sc.php:336 includes/element-epico_capture_sc.php:360
+#: includes/element-epico_capture_sc.php:383 includes/element-epico_capture_sc.php:404
+#: includes/element-epico_capture_sc.php:438 includes/element-epico_capture_sc.php:483
+#: includes/element-epico_capture_sc.php:509 includes/element-epico_capture_sc.php:533
+#: includes/element-epico_capture_sc.php:559 includes/element-epico_capture_sc.php:583
+#: includes/element-epico_capture_sc.php:615 includes/element-epico_capture_sc.php:647
+#: includes/element-epico_capture_sc.php:679 includes/element-epico_capture_sc.php:724
+#: includes/element-epico_capture_sc.php:752 includes/element-epico_capture_sc.php:812
+#: includes/element-epico_capture_widget.php:218 includes/element-epico_capture_widget.php:251
+#: includes/element-epico_capture_widget.php:271 includes/element-epico_capture_widget.php:291
+#: includes/element-epico_capture_widget.php:319 includes/element-epico_capture_widget.php:339
+#: includes/element-epico_capture_widget.php:371 includes/element-epico_capture_widget.php:395
+#: includes/element-epico_capture_widget.php:417 includes/element-epico_capture_widget.php:437
+#: includes/element-epico_capture_widget.php:471 includes/element-epico_capture_widget.php:516
+#: includes/element-epico_capture_widget.php:542 includes/element-epico_capture_widget.php:566
+#: includes/element-epico_capture_widget.php:592 includes/element-epico_capture_widget.php:616
+#: includes/element-epico_capture_widget.php:648 includes/element-epico_capture_widget.php:680
+#: includes/element-epico_capture_widget.php:717 includes/element-epico_capture_widget.php:762
+#: includes/element-epico_capture_widget.php:790 includes/element-epico_capture_widget.php:850
+#: includes/element-epico_capture_widget.php:1020 includes/element-epico_capture_widget.php:1053
+#: includes/element-epico_capture_widget.php:1073 includes/element-epico_capture_widget.php:1093
+#: includes/element-epico_capture_widget.php:1121 includes/element-epico_capture_widget.php:1141
+#: includes/element-epico_capture_widget.php:1173 includes/element-epico_capture_widget.php:1197
+#: includes/element-epico_capture_widget.php:1219 includes/element-epico_capture_widget.php:1239
+#: includes/element-epico_capture_widget.php:1273 includes/element-epico_capture_widget.php:1318
+#: includes/element-epico_capture_widget.php:1344 includes/element-epico_capture_widget.php:1368
+#: includes/element-epico_capture_widget.php:1394 includes/element-epico_capture_widget.php:1418
+#: includes/element-epico_capture_widget.php:1450 includes/element-epico_capture_widget.php:1482
+#: includes/element-epico_capture_widget.php:1519 includes/element-epico_capture_widget.php:1564
+#: includes/element-epico_capture_widget.php:1592 includes/element-epico_capture_widget.php:1652
+#: includes/element-epico_capture_widget.php:1882 includes/element-epico_capture_widget.php:1915
+#: includes/element-epico_capture_widget.php:1935 includes/element-epico_capture_widget.php:1955
+#: includes/element-epico_capture_widget.php:1983 includes/element-epico_capture_widget.php:2003
+#: includes/element-epico_capture_widget.php:2035 includes/element-epico_capture_widget.php:2059
+#: includes/element-epico_capture_widget.php:2081 includes/element-epico_capture_widget.php:2101
+#: includes/element-epico_capture_widget.php:2135 includes/element-epico_capture_widget.php:2180
+#: includes/element-epico_capture_widget.php:2206 includes/element-epico_capture_widget.php:2230
+#: includes/element-epico_capture_widget.php:2256 includes/element-epico_capture_widget.php:2280
+#: includes/element-epico_capture_widget.php:2312 includes/element-epico_capture_widget.php:2344
+#: includes/element-epico_capture_widget.php:2381 includes/element-epico_capture_widget.php:2426
+#: includes/element-epico_capture_widget.php:2454 includes/element-epico_capture_widget.php:2515
+msgid "Subscribe!"
+msgstr ""
+
+#: configs/epico_capture_sc-theme-overrides.php:34 configs/epico_capture_widget-theme-overrides.php:34
+msgid "Choose a background color for the widget."
+msgstr ""
+
+#: configs/epico_capture_sc-theme-overrides.php:39 configs/epico_capture_widget-theme-overrides.php:39
+msgid "Email subscribe form background color"
+msgstr ""
+
+#: configs/epico_capture_sc-theme-overrides.php:40 configs/epico_capture_widget-theme-overrides.php:40
+msgid "Choose a background color for the email subscribe form."
+msgstr ""
+
+#: configs/epico_capture_sc-theme-overrides.php:45 configs/epico_capture_widget-theme-overrides.php:51
+msgid "Title color"
+msgstr ""
+
+#: configs/epico_capture_sc-theme-overrides.php:46 configs/epico_capture_widget-theme-overrides.php:52
+msgid "Choose a color for the widget title."
+msgstr ""
+
+#: configs/epico_capture_sc-theme-overrides.php:52 configs/epico_capture_widget-theme-overrides.php:58
+msgid "Choose a color for the icon."
+msgstr ""
+
+#: configs/epico_capture_sc-theme-overrides.php:57 configs/epico_capture_widget-theme-overrides.php:63
+msgid "Arrow color"
+msgstr ""
+
+#: configs/epico_capture_sc-theme-overrides.php:58 configs/epico_capture_widget-theme-overrides.php:64
+msgid "Choose a color for the arrow."
+msgstr ""
+
+#: configs/epico_capture_sc-theme-overrides.php:63 configs/epico_capture_widget-theme-overrides.php:69
+msgid "Intro text color"
+msgstr ""
+
+#: configs/epico_capture_sc-theme-overrides.php:64 configs/epico_capture_widget-theme-overrides.php:70
+msgid "Choose a color for the introductory text."
+msgstr ""
+
+#: configs/epico_capture_sc-theme-overrides.php:69 configs/epico_capture_widget-theme-overrides.php:81
+msgid "Email field background color"
+msgstr ""
+
+#: configs/epico_capture_sc-theme-overrides.php:70 configs/epico_capture_widget-theme-overrides.php:82
+msgid "Choose a background color for the email field."
+msgstr ""
+
+#: configs/epico_capture_sc-theme-overrides.php:75 configs/epico_capture_widget-theme-overrides.php:87
+msgid "Email field text color"
+msgstr ""
+
+#: configs/epico_capture_sc-theme-overrides.php:76 configs/epico_capture_widget-theme-overrides.php:88
+msgid "Choose a color for the email field's text."
+msgstr ""
+
+#: configs/epico_capture_sc-theme-overrides.php:82 configs/epico_capture_widget-theme-overrides.php:93
+msgid "Submit button background color"
+msgstr ""
+
+#: configs/epico_capture_sc-theme-overrides.php:83 configs/epico_capture_widget-theme-overrides.php:94
+msgid "Choose a background color for the submit button."
+msgstr ""
+
+#: configs/epico_capture_sc-theme-overrides.php:88 configs/epico_capture_widget-theme-overrides.php:99
+msgid "Submit button background color (hover)"
+msgstr ""
+
+#: configs/epico_capture_sc-theme-overrides.php:89 configs/epico_capture_widget-theme-overrides.php:100
+msgid "Choose background color for the submit button's hover state."
+msgstr ""
+
+#: configs/epico_capture_sc-theme-overrides.php:94 configs/epico_capture_widget-theme-overrides.php:105
+msgid "Submit button text color"
+msgstr ""
+
+#: configs/epico_capture_sc-theme-overrides.php:95 configs/epico_capture_widget-theme-overrides.php:106
+msgid "Choose a color for the submit button's text."
+msgstr ""
+
+#: configs/epico_capture_sc-theme-overrides.php:100 configs/epico_capture_widget-theme-overrides.php:111
+#: configs/epico_pop-theme-overrides.php:69
+msgid "Widget bottom border color"
+msgstr ""
+
+#: configs/epico_capture_sc-theme-overrides.php:101 configs/epico_capture_widget-theme-overrides.php:112
+#: configs/epico_pop-theme-overrides.php:70
+msgid "Choose a color for the widget bottom border."
+msgstr ""
+
+#: configs/epico_capture_widget-customization.php:20
+msgid "Span page width"
+msgstr ""
+
+#: configs/epico_capture_widget-customization.php:21
+msgid ""
+"You can use the widget in the sidebar or spanning the whole width of your layout, if your theme allows."
+msgstr ""
+
+#: configs/epico_capture_widget-customization.php:23
+msgid "1||Full page width,*2||Sidebar"
+msgstr ""
+
+#: configs/epico_capture_widget-customization.php:27
+msgid "Fixed on scroll"
+msgstr ""
+
+#: configs/epico_capture_widget-customization.php:28
+msgid ""
+"(Note: this option is effective only for the widget area after the main sidebar). The widget can stay "
+"fixed as you scroll down or scroll normally with the content. To make the fixed option work, activate "
+"above the option (Sidebar)."
+msgstr ""
+
+#: configs/epico_capture_widget-customization.php:30
+msgid "1||Fixed postion,*2||Scroll normally"
+msgstr ""
+
+#: configs/epico_capture_widget-customization.php:34
+msgid "Short version on inner pages"
+msgstr ""
+
+#: configs/epico_capture_widget-customization.php:35
+msgid ""
+"You can have a short version of the widget, with just the subscription form, on inner pages of the "
+"site – the default version will always be presented on the frontpage."
+msgstr ""
+
+#: configs/epico_capture_widget-customization.php:37
+msgid "1||Short version,*2||Default version"
+msgstr ""
+
+#: configs/epico_capture_widget-customization.php:41 configs/epico_notice-configuration.php:27
+msgid "Close button"
+msgstr ""
+
+#: configs/epico_capture_widget-customization.php:42
+msgid "Would you like a close button in the right top corner of the widget?"
+msgstr ""
+
+#: configs/epico_capture_widget-customization.php:44
+msgid "*1||Add close button,2||Omit close button"
+msgstr ""
+
+#: configs/epico_capture_widget-customization.php:68
+msgid "Color ovelay effect"
+msgstr ""
+
+#: configs/epico_capture_widget-customization.php:75
+msgid "Ovelay color"
+msgstr ""
+
+#: configs/epico_capture_widget-email-marketing.php:27
+msgid "Insert below your form action."
+msgstr ""
+
+#: configs/epico_capture_widget-email-marketing.php:32
+msgid "List or campaign ID"
+msgstr ""
+
+#: configs/epico_capture_widget-email-marketing.php:33
+msgid "Insert below the unique ID of your list."
+msgstr ""
+
+#: configs/epico_capture_widget-email-marketing.php:39
+msgid "Insert below the unique ID of your group."
+msgstr ""
+
+#: configs/epico_capture_widget-email-marketing.php:45
+msgid "Insert below a custom redirect URL after your form submission."
+msgstr ""
+
+#: configs/epico_capture_widget-email-marketing.php:51
+msgid ""
+"Insert below a custom redirect URL for already subscribed visitors. Leave unfilled if you want the "
+"default redirection page."
+msgstr ""
+
+#: configs/epico_capture_widget-email-marketing.php:57
+msgid "Insert below your unique ID."
+msgstr ""
+
+#: configs/epico_capture_widget-email-marketing.php:63
+msgid "Insert below your client identification."
+msgstr ""
+
+#: configs/epico_capture_widget-email-marketing.php:69
+msgid "Insert below your email field ID."
+msgstr ""
+
+#: configs/epico_capture_widget-email-marketing.php:75
+msgid "Insert below your token."
+msgstr ""
+
+#: configs/epico_capture_widget-email-marketing.php:81
+msgid "Insert below a custom redirect URL for subscription confirmation."
+msgstr ""
+
+#: configs/epico_capture_widget-email-marketing.php:87
+msgid "Insert below the unique ID of your form."
+msgstr ""
+
+#: configs/epico_capture_widget-email-marketing.php:93
+msgid "Insert below the tracking code."
+msgstr ""
+
+#: configs/epico_capture_widget-email-marketing.php:99
+msgid "Insert below the ID of your campaign."
+msgstr ""
+
+#: configs/epico_capture_widget-email-marketing.php:105
+msgid "Please also configure your MyMail plugin in \"Newsletter > Settings in your WordPress."
+msgstr ""
+
+#: configs/epico_capture_widget-email-marketing.php:113
+msgid "1||Single Opt-in,*2||Double opt-in"
+msgstr ""
+
+#: configs/epico_capture_widget-email-marketing.php:136
+msgid ""
+"Enable lead navigation tracking on your form. Important! You will also need to add your tracking code "
+"on the \"Advanced\" section of this panel."
+msgstr ""
+
+#: configs/epico_capture_widget-texts.php:29
+msgid "*0||Header level 4,1||Header level 3,2||Header level 2,3||Header level 1,4||Paragraph"
+msgstr ""
+
+#: configs/epico_capture_widget-texts.php:35
+msgid "Enter your email address below to get free blog updates!"
+msgstr ""
+
+#: configs/epico_capture_widget-texts.php:38
+msgid "Anti-spam notice"
+msgstr ""
+
+#: configs/epico_capture_widget-texts.php:39
+msgid ""
+"Text for the anti-spam notice that sits close to the subscription form. Optimized for 10 words maximum."
+msgstr ""
+
+#: configs/epico_capture_widget-texts.php:41
+msgid "Your email is completely SAFE with us!"
+msgstr ""
+
+#: configs/epico_capture_widget-texts.php:47
+msgid "Enter your email"
+msgstr ""
+
+#: configs/epico_capture_widget-texts.php:53
+msgid "Enter your name"
+msgstr ""
+
+#: configs/epico_capture_widget-theme-overrides.php:45
+msgid "Close button color"
+msgstr ""
+
+#: configs/epico_capture_widget-theme-overrides.php:46
+msgid "Choose a color for the close button, if active."
+msgstr ""
+
+#: configs/epico_capture_widget-theme-overrides.php:75
+msgid "Anti-spam notice text color"
+msgstr ""
+
+#: configs/epico_capture_widget-theme-overrides.php:76
+msgid "Choose a color for the anti-spam notice text."
+msgstr ""
+
+#: configs/epico_image-image.php:20
+msgid "Image upload"
+msgstr ""
+
+#: configs/epico_image-image.php:21
+msgid "Upload an image file."
+msgstr ""
+
+#: configs/epico_image-image.php:26
+msgid "Image link"
+msgstr ""
+
+#: configs/epico_image-image.php:27
+msgid "Insert the destination URL."
+msgstr ""
+
+#: configs/epico_image-image.php:33
+msgid "Insert the image Alt text."
+msgstr ""
+
+#: configs/epico_image-image.php:38
+msgid "Widget title"
+msgstr ""
+
+#: configs/epico_image-image.php:39
+msgid "Insert a title above the image."
+msgstr ""
+
+#: configs/epico_image-image.php:45
+msgid "Choose one of the actions for image's link when is clicked."
+msgstr ""
+
+#: configs/epico_links-links.php:15
+msgid "Links"
+msgstr ""
+
+#: configs/epico_links-links.php:20
+msgid "URL"
+msgstr ""
+
+#: configs/epico_links-links.php:21
+msgid "Insert an URL for your link."
+msgstr ""
+
+#: configs/epico_links-links.php:26
+msgid "Link text"
+msgstr ""
+
+#: configs/epico_links-links.php:27
+msgid "Add a text to your link."
+msgstr ""
+
+#: configs/epico_links-links.php:29
+msgid "My special link"
+msgstr ""
+
+#: configs/epico_links-links.php:32
+msgid "Link icon"
+msgstr ""
+
+#: configs/epico_links-links.php:33
+msgid ""
+"Select an icon to represent the link destination. Visit minha.uberfacil.com/icones to see all "
+"available icons. Just choose an icon and click on it to copy it's ID to the clipboard. Next, paste it "
+"here."
+msgstr ""
+
+#: configs/epico_links-theme-overrides.php:21
+msgid ""
+"Enter an unique identifier for the widget. Use only regular alphabet letters and don't use special "
+"symbols"
+msgstr ""
+
+#: configs/epico_links-theme-overrides.php:27 configs/epico_pages-theme-overrides.php:27
+msgid "Choose one of the actions for the post link when clicked."
+msgstr ""
+
+#: configs/epico_links-theme-overrides.php:29 configs/epico_pages-theme-overrides.php:29
+msgid "0||Open in new window,*1||Open in the same window"
+msgstr ""
+
+#: configs/epico_links-theme-overrides.php:32 configs/epico_pages-theme-overrides.php:32
+msgid "Font weight"
+msgstr ""
+
+#: configs/epico_links-theme-overrides.php:33 configs/epico_pages-theme-overrides.php:33
+msgid "Select a font weight for the text"
+msgstr ""
+
+#: configs/epico_links-theme-overrides.php:35 configs/epico_pages-theme-overrides.php:35
+msgid "*1||Normal,2||Bold"
+msgstr ""
+
+#: configs/epico_links-theme-overrides.php:53 configs/epico_pages-theme-overrides.php:53
+msgid "Select a color for the text of the link."
+msgstr ""
+
+#: configs/epico_links-theme-overrides.php:59 configs/epico_pages-theme-overrides.php:59
+msgid "Select a color for the icon."
+msgstr ""
+
+#: configs/epico_notice-configuration.php:15
+msgid "Configuration"
+msgstr ""
+
+#: configs/epico_notice-configuration.php:20
+msgid "Sticky box"
+msgstr ""
+
+#: configs/epico_notice-configuration.php:21
+msgid "Do you want to fix the box at the top of the site?"
+msgstr ""
+
+#: configs/epico_notice-configuration.php:23 configs/epico_notice-configuration.php:37
+msgid "1||Yes,*2||No"
+msgstr ""
+
+#: configs/epico_notice-configuration.php:28
+msgid ""
+"Do you want a close button in the corner? The notice will reapear after page load. If you want do "
+"dismiss it permanently, activate the option bellow."
+msgstr ""
+
+#: configs/epico_notice-configuration.php:30
+msgid "*1||Yes,2||No"
+msgstr ""
+
+#: configs/epico_notice-configuration.php:34
+msgid "Dismiss after close"
+msgstr ""
+
+#: configs/epico_notice-configuration.php:35
+msgid ""
+"This will add an action to the close button that will dismiss the box even after the page reload. "
+"After seven days, the box can appear again for the visitor."
+msgstr ""
+
+#: configs/epico_notice-texts.php:20
+msgid "Notice text"
+msgstr ""
+
+#: configs/epico_notice-texts.php:21
+msgid "Add a brief text for the notice (10 words is a good limit)"
+msgstr ""
+
+#: configs/epico_notice-texts.php:23
+msgid "We have an important announcement for you!"
+msgstr ""
+
+#: configs/epico_notice-texts.php:27
+msgid ""
+"Add some text for the button located right after the main text. Remove the text to ommit the button "
+"from the layout."
+msgstr ""
+
+#: configs/epico_notice-texts.php:29
+msgid "Click here"
+msgstr ""
+
+#: configs/epico_notice-texts.php:33
+msgid "Add a link for the button, including the http://"
+msgstr ""
+
+#: configs/epico_notice-texts.php:39
+msgid "Choose an action for the button when is clicked."
+msgstr ""
+
+#: configs/epico_notice-theme-overrides.php:29
+msgid "*0||Off,1||On"
+msgstr ""
+
+#: configs/epico_notice-theme-overrides.php:34
+msgid "Select a background color for the notice."
+msgstr ""
+
+#: configs/epico_notice-theme-overrides.php:40
+msgid "Select a color for the notice main text."
+msgstr ""
+
+#: configs/epico_notice-theme-overrides.php:51
+msgid "Button's background color (hover state)"
+msgstr ""
+
+#: configs/epico_pages-pages.php:15
+msgid "Pages"
+msgstr ""
+
+#: configs/epico_pages-pages.php:20
+msgid "Page selection"
+msgstr ""
+
+#: configs/epico_pages-pages.php:21
+msgid "Select a page to include in the list. You can add more links clicking \"Add another\", below."
+msgstr ""
+
+#: configs/epico_pages-pages.php:26
+msgid "Page title"
+msgstr ""
+
+#: configs/epico_pages-pages.php:27
+msgid "Add a text to the page link."
+msgstr ""
+
+#: configs/epico_pages-pages.php:29
+msgid "My special page"
+msgstr ""
+
+#: configs/epico_pages-pages.php:32
+msgid "Page icon"
+msgstr ""
+
+#: configs/epico_pages-pages.php:33
+msgid ""
+"Select an icon to represent the page. Visit minha.uberfacil.com/icones to see all available icons. "
+"Just choose an icon and click on it to copy it's ID to the clipboard. Next, paste it here."
+msgstr ""
+
+#: configs/epico_pop-articles.php:15
+msgid "Articles"
+msgstr ""
+
+#: configs/epico_pop-articles.php:20
+msgid "Article selection"
+msgstr ""
+
+#: configs/epico_pop-articles.php:21
+msgid ""
+"Select an article to include in the list. You can add more articles clicking \"Add another\", below"
+msgstr ""
+
+#: configs/epico_pop-theme-overrides.php:21
+msgid "Choose one of the actions for the link when clicked."
+msgstr ""
+
+#: configs/epico_pop-theme-overrides.php:35
+msgid "0||On,*1||Off"
+msgstr ""
+
+#: configs/epico_pop-theme-overrides.php:51
+msgid "Title icon color"
+msgstr ""
+
+#: configs/epico_pop-theme-overrides.php:52
+msgid "Select a color for the icon in the title."
+msgstr ""
+
+#: configs/epico_pop-theme-overrides.php:57
+msgid "Titles's background color"
+msgstr ""
+
+#: configs/epico_pop-theme-overrides.php:58
+msgid "Select a background color for the title."
+msgstr ""
+
+#: configs/epico_pop-theme-overrides.php:63
+msgid "Title's text color"
+msgstr ""
+
+#: configs/epico_pop-theme-overrides.php:64
+msgid "Select a color for the title's text"
+msgstr ""
+
+#: configs/epico_pop-title.php:20
+msgid "Title text"
+msgstr ""
+
+#: configs/epico_pop-title.php:23
+msgid "Popular posts"
+msgstr ""
+
+#: includes/element-epico_capture_sc.php:172 includes/element-epico_capture_widget.php:207
+#: includes/element-epico_capture_widget.php:1009 includes/element-epico_capture_widget.php:1871
+msgid "]%20in%20["
+msgstr ""
+
+#: includes/element-epico_capture_widget.php:197 includes/element-epico_capture_widget.php:999
+#: includes/element-epico_capture_widget.php:1848
+msgid "Close"
+msgstr ""
+
+#: includes/element-epico_capture_widget.php:864 includes/element-epico_capture_widget.php:1666
+#: includes/element-epico_capture_widget.php:2529
+msgid ""
+"This area is too narrow for this version of the widget. Relocate it to a wider area or activate the "
+"sidebar version"
+msgstr ""
+
+#: includes/element-epico_capture_widget.php:864 includes/element-epico_capture_widget.php:1666
+#: includes/element-epico_capture_widget.php:2529
+msgid "on the widget options"
+msgstr ""
+
+#: includes/element-epico_capture_widget.php:864 includes/element-epico_capture_widget.php:1666
+#: includes/element-epico_capture_widget.php:2529
+msgid ", inside the \"Customization\" tab."
+msgstr ""
+
+#: includes/epico-plugin-updater.php:377
+msgid "An Unexpected HTTP Error occurred during the API request."
+msgstr ""
+
+#: includes/epico-plugin-updater.php:377 includes/epico-plugin-updater.php:542
+msgid "Try again"
+msgstr ""
+
+#: includes/epico-plugin-updater.php:418
+msgid "An unknown error occurred"
+msgstr ""
+
+#: includes/epico-plugin-updater.php:454
+msgid "The plugin has been updated, but could not be reactivated. Please reactivate it manually."
+msgstr ""
+
+#: includes/epico-plugin-updater.php:455
+msgid "Plugin reactivated successfully. "
+msgstr ""
+
+#: includes/epico-plugin-updater.php:477
+msgid " Plugin Updates"
+msgstr ""
+
+#: includes/epico-plugin-updater.php:516
+msgid "Username: "
+msgstr ""
+
+#: includes/epico-plugin-updater.php:520
+msgid "Email: "
+msgstr ""
+
+#: includes/epico-plugin-updater.php:526
+msgid "Key: "
+msgstr ""
+
+#: includes/epico-plugin-updater.php:532
+msgid "<p>Your plugin update is <span style=\"color:green\">active</span></p>"
+msgstr ""
+
+#: includes/epico-plugin-updater.php:536
+msgid ""
+"<p>Your input is <span style=\"color:red\">not valid</span>, automatic updates is <span style=\"color:"
+"red\">not active</span>.</p>"
+msgstr ""
+
+#: includes/epico-plugin-updater.php:537
+msgid "Edit Key"
+msgstr ""
+
+#: includes/epico-plugin-updater.php:541
+msgid "<p>Unable to validate update activation.</p>"
+msgstr ""
+
+#: includes/epico-plugin-updater.php:547
+msgid "Add Key"
+msgstr ""
+
+#: includes/epico-plugin-updater.php:633
+msgid "User name"
+msgstr ""
+
+#: includes/epico-plugin-updater.php:639
+msgid "Email"
+msgstr ""
+
+#: includes/epico-plugin-updater.php:648
+msgid "Activation Key"
+msgstr ""
+
+#: includes/field-image.php:2
+msgid "Select Image"
+msgstr ""
+
+#: includes/field-image.php:53 includes/field-image.php:71
+msgid "Change Image"
+msgstr ""
+
+#: includes/field-onoff.php:4
+msgid "On"
+msgstr ""
+
+#: includes/field-onoff.php:4
+msgid "Off"
+msgstr ""
+
+#: includes/settings-epico_global_assets.php:3
+msgid "Epico plugin – Global assets "
+msgstr ""
+
+#: includes/settings-epico_global_assets.php:10
+msgid "Settings saved."
+msgstr ""
+
+#: includes/settings-epico_global_assets.php:14
+msgid "Global plugin asset management"
+msgstr ""
+
+#: includes/widget-epico-social.php:17
+msgid "Epico Social"
+msgstr ""
+
+#: includes/widget-epico-social.php:18
+msgid "Easily add social network buttons."
+msgstr ""
+
+#: includes/widget-epico_author.php:18
+msgid "Epico Author"
+msgstr ""
+
+#: includes/widget-epico_author.php:19
+msgid "Custom author box widget."
+msgstr ""
+
+#: includes/widget-epico_capture_widget.php:17
+msgid "Epico Capture"
+msgstr ""
+
+#: includes/widget-epico_capture_widget.php:18
+msgid "Custom email opt-in forms."
+msgstr ""
+
+#: includes/widget-epico_image.php:18
+msgid "Epico Image"
+msgstr ""
+
+#: includes/widget-epico_image.php:19
+msgid "Add images to your widget areas."
+msgstr ""
+
+#: includes/widget-epico_links.php:17
+msgid "Epico Links"
+msgstr ""
+
+#: includes/widget-epico_links.php:18
+msgid "Create beautiful links for your blog."
+msgstr ""
+
+#: includes/widget-epico_notice.php:18
+msgid "Epico Notice"
+msgstr ""
+
+#: includes/widget-epico_notice.php:19
+msgid "Create a cool notice at the top of your website."
+msgstr ""
+
+#: includes/widget-epico_pages.php:18
+msgid "Epico Pages"
+msgstr ""
+
+#: includes/widget-epico_pages.php:19
+msgid "Create beautiful links for your special pages."
+msgstr ""
+
+#: includes/widget-epico_pop.php:18
+msgid "Epico Pop"
+msgstr ""
+
+#: includes/widget-epico_pop.php:19
+msgid "Popular posts widget."
+msgstr ""
+
+#: plugincore.php:85
+msgid "Follow us on Twitter"
+msgstr ""
+
+#: plugincore.php:85
+msgid "Follow us on Facebook"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Epico"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.uberfacil.com/temas/epico"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Includes advanced functionality for the Epico theme and helps you to create your author platform on "
+"the Web with specialized widgets and shortcodes. Note: this plugin is compatible with the Epico theme "
+"only."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Uberfácil"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "//uberfacil.com"
+msgstr ""
